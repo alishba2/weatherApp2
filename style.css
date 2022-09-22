@@ -1,0 +1,75 @@
+body{
+    box-sizing: border-box;
+    /* background-image: url('./assets/white-cloud-blue-sky.jpg');
+    background-size: 100%; */
+
+}
+.ROW{
+    display: grid;
+  justify-self: center;
+  padding-left: 120px;
+
+  padding-right: 120px;
+  margin-top: 170px;
+  border-radius: 30px;
+ 
+    
+}
+
+.cardContent{
+  
+     /* border-radius: 30px;
+    height: 700px;
+    width: 100px; */
+    border: 2px solid black;
+
+
+    
+    
+}
+.smcard{
+    font-size: 10px !important;
+    height: 140px !important;
+    margin-top: 70px;
+    background-color: rgb(77, 74, 74) !important;
+    color: white;
+    border: 1px solid gray !important;
+   
+}
+.Input{
+margin-top: 40px;
+margin-bottom: 20px;
+border: 1px solid gray;
+border-radius: 9px;
+height: 35px;
+}
+.select{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 7px;
+    border: 1px solid gray;
+border-radius: 9px;
+}
+.option{
+    padding: 7px;
+    border: 1px solid gray;
+}
+.currentDay{
+    font-weight: bold;
+
+}
+.cardItem1{
+    background-color: rgb(108, 120, 177) !important;
+    color: white;
+}
+.cardItem2{
+    background-color: rgb(77, 74, 74) !important;
+    color: white;
+    font-weight: bold !important;
+}
+.item2text{
+    margin-top: 30px;
+    font-size: 15px !important;
+    
+
+}

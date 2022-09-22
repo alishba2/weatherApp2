@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Weather App
+    </title>
+
+    <!-- style Sheet  -->
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap link -->
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row ROW">
+            <div class="col-6 card cardContent cardItem1" style="width: 15rem;" >
+                <div class="card-body">
+                    <div class="weather loading.." id="current-weather-items" >
+                        <h2 class="currentDay">weekday</h2>
+                    
+                       
+                      
+                        <h5 class="city"><i class="fa fa-map-marker " aria-hidden="true" style="font-size: 30px;"></i>Location</h5>
+                       <div class="icon">
+
+                       </div>
+                        <h3 class="temp">65 F</h3>
+                        <h5 class="description">clouds</h5>
+                    </div>
+                </div>
+              </div>
+              <div class="col-6 card cardContent cardItem2" id="weather-forecast style="width: 15rem;">
+                <div class="card-body">
+                    <div class="item2text" id="otherInfo">
+                        <div class="precipation">
+                            Precipation : 0%
+                        </div>
+                        <div class="humidity">
+                            Humidity: 39%
+                        </div>
+                        <div class="wind">
+                            Wind: 345kmh
+                        </div>
+                       
+                    
+                    </div>
+                  
+                    <div class="row" id="weather-forecast">
+                        <div  class="card smcard" class="col-4"> 
+                            <div class="card-body">
+                                <div class="icon">
+                                  <i class="fa fa-cloud"style="font-size: 50px;" aria-hidden="true"></i>
+                                </div>
+                                <div class="currentDay">
+                                    Saturday
+                                </div>
+                                <span class="temp">50 F</span>
+                            </div>
+                         
+                        </div>
+                        <div class="card smcard" class="col-4">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <i class="fa fa-cloud "style="font-size: 50px;" aria-hidden="true"></i>
+                                  </div>
+                                <div class="currentDay">
+                                    Saturday
+                                </div>
+                                <span class="temp">50 F</span>
+                            </div>
+                         
+                        </div>
+                        <div class="card smcard" class="col-4">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <i class="fa fa-cloud" style="font-size: 50px;" aria-hidden="true"></i>
+                                  </div>
+                                <div class="currentDay">
+                                    Saturday
+                                </div>
+                                <span class="temp">50 F</span>
+                            </div>
+                         
+                        </div>
+                        <div class="card smcard" class="col-4">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <i class="fa fa-cloud" style="font-size: 50px;"aria-hidden="true"></i>
+                                  </div>
+                                <div class="currentDay">
+                                    Saturday
+                                </div>
+                                <span class="temp">50 F</span>
+                            </div>
+                         
+                        </div>
+
+                    </div>
+                    <div>
+                      
+                            <select id="selectBox" onchange="changeFunc();">
+                              
+                                    <option  value="2" >
+                                        Farenhiet
+                                    </option>
+                              
+                                <option value='1'>
+                                    Celcius
+                                </option>
+                            </select>
+                    
+                        <input class="Input" type="text">
+                    </div>
+                </div>
+              </div>
+        </div>
+    
+    </div>
+
+  
+</body>
+<script src="./script.js"></script>
+</html>
